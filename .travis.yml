@@ -6,4 +6,4 @@ install:
   - yarn global add codecov
 script:
   - yarn jest --coverage
-  # - codecov
+  - codecov
