@@ -1,0 +1,11 @@
+{
+  "name": "test-code-cov",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/franciscocpg/test-code-cov.git",
+  "author": "Francisco Guimarães <francisco.cpg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^23.5.0"
+  }
+}
