@@ -9,6 +9,13 @@ describe('File1 tests', () => {
       });
     });
 
+    describe('when a equals 1', () => {
+      it('should return 1', () => {
+        const ret = funcPkg2File1(1);
+        expect(ret).toBe(1);
+      });
+    });
+
     describe('when a greater than 1', () => {
       it('should return 2', () => {
         const ret = funcPkg2File1(2);
