@@ -14,3 +14,4 @@ install:
 script:
   - yarn jest --coverage
   - codecov
+  - cat coverage/lcov.info | yarn coveralls
