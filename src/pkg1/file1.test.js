@@ -8,5 +8,12 @@ describe('File1 tests', () => {
         expect(ret).toBe(0);
       });
     });
+
+    describe('when a greater than 1', () => {
+      it('should return 2', () => {
+        const ret = funcPkg1File1(4);
+        expect(ret).toBe(2);
+      });
+    });
   });
 });
