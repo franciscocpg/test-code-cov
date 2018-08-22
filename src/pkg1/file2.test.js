@@ -4,8 +4,8 @@ describe('File2 tests', () => {
   describe('#funcPkg1File2', () => {
     describe('when a equals 0', () => {
       it('should return 0', () => {
-        const ret = funcPkg2File1(2);
-        expect(ret).toBe(2);
+        const ret = funcPkg1File2(0);
+        expect(ret).toBe(0);
       });
     });
 
